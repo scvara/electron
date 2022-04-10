@@ -1,44 +1,35 @@
-$myColor: #7ac751;
+@import "../../assets/styles/styles.scss";
 
-.header-wrapper {
-  width: 100%;
-  background-color: $myColor;
+.header {
+  display: flex;
+  align-items: center;
+  background-color: $primaryColor;
   height: 50px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  font-size: 18px;
+  h3 {
+    color: $secondaryColor2;
+    font-style: bold;
+  }
 }
 
-.container {
-  width: 1100px;
+.header-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  .logo {
-    height: 30px;
-    width: 30px;
-  }
-}
-
-.logo {
-  width: 100px;
-  height: 100px;
-}
-
-.user-section {
-  text-align: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  .header-user-item {
-    color: white;
-  }
-  .header-divider {
-    margin: 15px;
+}
 
-    height: 15px;
-    width: 2px;
-    background-color: white;
-  }
+.header-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-user-item {
+  color: $secondaryColor2;
+}
+
+.header-divider {
+  background-color: $secondaryColor2;
+  height: 20px;
+  width: 2px;
+  margin: 0px 20px;
 }

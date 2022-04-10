@@ -1,0 +1,39 @@
+@import "../../assets/styles/styles.scss";
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 46px;
+  width: 582px;
+  // outline-color: $primaryColor;
+  // border-radius: 5px;
+  // border: 2px solid $primaryColor;
+  button {
+    height: 100%;
+    width: 10%;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: $primaryColor;
+  }
+  input {
+    height: 100%;
+    width: 70%;
+    outline: none;
+    // border-right: 2px solid $fontsPrimaryColor;
+    border:  2px solid $fontsPrimaryColor;
+
+    // border-top-left-radius: 2px;
+    // border-bottom-left-radius: 2px;
+  }
+  select {
+    height: 100%;
+    width: 20%;
+    // outline: none;
+
+    // border: none;
+    // border-radius: 5px;
+    // border: 2px solid $primaryColor;
+  }
+}
