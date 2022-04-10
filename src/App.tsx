@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Layout search />}>
           <Route path="/" element={<MainPage />}></Route>
           <Route path="/category:" element={<SingleItemPage />}></Route>
         </Route>
